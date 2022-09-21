@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    height: 100vh;
+ 
+ }
+ 
+ .container{
+   display: grid;
+   grid-gap: 5px;
+   grid-template-rows:repeat(3, 200px);
+   grid-template-columns:repeat(2, 150px);
+   width: 1000px;
+   height: 500px;
+   align-self: center;
+   /* margin: 2px; */
+   /* border:solid antiquewhite; */
+   /* background-image: url(https://images.pexels.com/photos/531844/pexels-photo-531844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-size: contain;
+   background-color: grey; */
+   /* grid-template-areas: 
+   "HD HD HD HD"
+   "AS SC MN S2"
+   "FT FT FT FT"; */
+ 
+   grid-template-areas: 
+   "HD HD"
+   "AS SC"
+   "FT FT";
+ }
+   .HD{
+     grid-area:HD;
+     background-color:rgb(155, 54, 54);
+     /* padding: 2px;
+     margin: 0px;
+     border: salmon solid; */
+   }
+ 
+   /* /* .HD p{
+     display: inline;
+     border-left: 2px dotted gold ; 
+   } */
+   .AS{
+     grid-area:AS;
+     background-color:silver;
+     /* padding: 10px;
+     margin: 2px;
+     border: salmon solid;
+     justify-items: right; */
+   }
+ 
+   /* .pic{
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+   } */
+   
+   .SC{
+     grid-area:SC;
+     background-color:beige;
+     /* padding: 10px;
+     margin: 2px;
+     border: salmon solid; */
+     /* justify-content: center; */
+   }
+  
+   
+   /* .MN{
+     grid-area:MN;
+     background-color:skyblue;
+     /* align-content: center;
+     padding: 10px;
+     margin: 2px;
+     border: salmon solid; */
+     /* justify-content: center; */
+   /* }
+   
+   .S2{
+     grid-area:S2;
+     background-color:rgb(86, 201, 195);
+     /* padding: 10px;
+     margin: 2px;
+     border: salmon solid;
+     justify-content: center; 
+   }
+    */
+   
+   .item6{
+     grid-area:item6;
+     background-color:grey;
+    
+   }
+ 
+  
