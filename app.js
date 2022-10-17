@@ -8,7 +8,7 @@ function main(){
     const Months   = new Date(endDate) - new Date(startDate)
     const Days = Months / (1000 * 60 * 60 * 24);
     const weeks = Days /7;
-    var news="Washuj, are Now at week: ";
+    var news="Washuj, we are now at week: ";
     alert(news + weeks);
 }
 main()
