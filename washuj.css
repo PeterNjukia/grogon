@@ -1,0 +1,24 @@
+.body{
+    margin: 0px;
+    height: 100vh;
+    background-color: cyan;
+ 
+ }
+ 
+ .container{
+   display: grid;
+   background-image: url(https://1.bp.blogspot.com/-vaphonAUpsg/TqmTAO-lyMI/AAAAAAAAB5s/hA8S8q-LTbk/s1600/Babies_Photos_Wallpapers%2B%25282%2529.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-size: contain;
+   grid-gap: 5px;
+   grid-template-rows:repeat(3, 200px);
+   grid-template-columns:repeat(2, 150px);
+   margin: 50px;
+   border: 20px;
+   /* width: 1000px;
+   height: 500px; */
+   align-self: center;
+ }
+
